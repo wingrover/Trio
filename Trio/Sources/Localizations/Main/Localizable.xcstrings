@@ -6430,6 +6430,9 @@
         }
       }
     },
+    "%@ " : {
+
+    },
     "%@  %@" : {
       "localizations" : {
         "bg" : {
@@ -7752,6 +7755,7 @@
     },
     "%@ U" : {
       "comment" : "Number of units insulin delivered",
+      "extractionState" : "stale",
       "localizations" : {
         "bg" : {
           "stringUnit" : {
@@ -13717,7 +13721,7 @@
         }
       }
     },
-    "• Manual boluses you enter yoursef" : {
+    "• Manual boluses you enter yourself" : {
 
     },
     "• Manual temporary basal rates you set yourself" : {
@@ -37406,6 +37410,16 @@
         }
       }
     },
+    "An external bolus of %@ U of insulin was recorded." : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Un bolus externe de %@ U d'insuline a été enregistré."
+          }
+        }
+      }
+    },
     "An unknown authentication error occurred. Please try again." : {
       "localizations" : {
         "bg" : {
@@ -39324,6 +39338,7 @@
       }
     },
     "Applying ${carbQuantity} at ${dateAdded}" : {
+      "extractionState" : "stale",
       "localizations" : {
         "bg" : {
           "stringUnit" : {
@@ -39642,6 +39657,7 @@
       }
     },
     "Are you sure to bolus %@ U of insulin?" : {
+      "extractionState" : "stale",
       "localizations" : {
         "bg" : {
           "stringUnit" : {
@@ -44158,6 +44174,9 @@
           }
         }
       }
+    },
+    "Avg" : {
+
     },
     "Axis" : {
       "localizations" : {
@@ -56274,6 +56293,7 @@
       }
     },
     "CGM Connection Trace Chart" : {
+      "extractionState" : "stale",
       "localizations" : {
         "bg" : {
           "stringUnit" : {
@@ -62218,6 +62238,16 @@
         }
       }
     },
+    "Confirm Before logging" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Confirmer avant d’enregistrer"
+          }
+        }
+      }
+    },
     "Confirm Bolus Faster" : {
       "localizations" : {
         "bg" : {
@@ -67833,6 +67863,9 @@
         }
       }
     },
+    "DayEnd" : {
+
+    },
     "days" : {
       "comment" : "Total number of days of data for HbA1c estimation, part 2/2",
       "extractionState" : "manual",
@@ -68053,6 +68086,9 @@
           }
         }
       }
+    },
+    "DayStart" : {
+
     },
     "Deactivate Pod" : {
       "extractionState" : "manual",
@@ -82353,6 +82389,9 @@
         }
       }
     },
+    "Distribution (by day)" : {
+
+    },
     "Do not enable this feature until you have optimized your CR (carb ratio) setting." : {
       "localizations" : {
         "bg" : {
@@ -96094,6 +96133,16 @@
         }
       }
     },
+    "External Insulin?" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Insuline externe ?"
+          }
+        }
+      }
+    },
     "External:" : {
       "localizations" : {
         "bg" : {
@@ -102919,7 +102968,7 @@
       }
     },
     "g" : {
-      "comment" : "Gram abbreviation\nThe short unit display string for grams\ngram of carbs",
+      "comment" : "Gram abbreviation\nThe short unit display string for grams\nUnits for carbs\ngram of carbs",
       "localizations" : {
         "bg" : {
           "stringUnit" : {
@@ -104844,6 +104893,7 @@
       }
     },
     "Glucose data is stale" : {
+      "extractionState" : "stale",
       "localizations" : {
         "bg" : {
           "stringUnit" : {
@@ -104948,6 +104998,9 @@
           }
         }
       }
+    },
+    "Glucose data is stale. The most recent glucose reading is from more than 12 minutes ago." : {
+
     },
     "Glucose data is too flat" : {
       "extractionState" : "stale",
@@ -114796,6 +114849,16 @@
         }
       }
     },
+    "If toggled, Insulin will be added to IOB but it will not be delivered" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Si cette option est activée, l'insuline sera ajoutée à l'IOB mais ne sera pas administrée."
+          }
+        }
+      }
+    },
     "If toggled, you will need to confirm before applying" : {
       "localizations" : {
         "bg" : {
@@ -115004,6 +115067,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "如果切換，您需要在應用之前確認。"
+          }
+        }
+      }
+    },
+    "If toggled, you will need to confirm before logging" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Si coché, vous devez confirmer avant l’enregistrement"
           }
         }
       }
@@ -116293,6 +116366,7 @@
       }
     },
     "Immediately applying ${carbQuantity} at ${dateAdded}" : {
+      "extractionState" : "stale",
       "localizations" : {
         "bg" : {
           "stringUnit" : {
@@ -116606,6 +116680,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "立即應用${preset}覆蓋"
+          }
+        }
+      }
+    },
+    "Immediately Log ${carbQuantity} at ${dateAdded}" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enregistrer immédiatement ${carbQuantity} à ${dateAdded}"
           }
         }
       }
@@ -124631,6 +124715,12 @@
         }
       }
     },
+    "Latest dev: %@" : {
+
+    },
+    "Latest dev: Fetching..." : {
+
+    },
     "Latest Raw Algorithm Output" : {
       "localizations" : {
         "bg" : {
@@ -128192,6 +128282,16 @@
         }
       }
     },
+    "Log ${carbQuantity} at ${dateAdded}" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enregistrer ${carbQuantity} à${dateAdded}"
+          }
+        }
+      }
+    },
     "Log Carbs" : {
       "comment" : "Button Label to Log Carbs on Watch",
       "localizations" : {
@@ -128620,6 +128720,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "記錄外部胰島素"
+          }
+        }
+      }
+    },
+    "Log external insulin bolus ${bolusQuantity} U" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enregistrer un bolus d’insuline externe ${bolusQuantity} U"
           }
         }
       }
@@ -139726,6 +139836,7 @@
       }
     },
     "Meal to Hypoglycemia/Hyperglycemia Distribution Chart" : {
+      "extractionState" : "stale",
       "localizations" : {
         "bg" : {
           "stringUnit" : {
@@ -139937,6 +140048,9 @@
           }
         }
       }
+    },
+    "Med" : {
+
     },
     "Median" : {
       "comment" : "Median BG",
@@ -140909,6 +141023,9 @@
           }
         }
       }
+    },
+    "Mid Limit" : {
+
     },
     "Middleware" : {
       "extractionState" : "manual",
@@ -146764,6 +146881,9 @@
         }
       }
     },
+    "No glucose data available for this day" : {
+
+    },
     "No Glucose Notifications will be triggered." : {
       "localizations" : {
         "bg" : {
@@ -146869,6 +146989,9 @@
           }
         }
       }
+    },
+    "No glucose readings found." : {
+
     },
     "No glucose readings." : {
       "localizations" : {
@@ -149600,6 +149723,7 @@
       }
     },
     "Not enough glucose data" : {
+      "extractionState" : "stale",
       "localizations" : {
         "bg" : {
           "stringUnit" : {
@@ -149704,6 +149828,9 @@
           }
         }
       }
+    },
+    "Not enough glucose data. You need at least three glucose readings in the last six hours to run the algorithm." : {
+
     },
     "Not looping." : {
       "localizations" : {
@@ -161483,6 +161610,9 @@
         }
       }
     },
+    "Percentile (by day)" : {
+
+    },
     "Period:" : {
       "localizations" : {
         "bg" : {
@@ -162344,6 +162474,12 @@
           }
         }
       }
+    },
+    "Please choose if you want to upload CGM readings from Trio to Nightscout." : {
+
+    },
+    "Please choose if you want to upload treatment data to Nightscout." : {
+
     },
     "Please enter your credentials:" : {
       "localizations" : {
@@ -167763,6 +167899,7 @@
       }
     },
     "Quantity fat" : {
+      "extractionState" : "stale",
       "localizations" : {
         "bg" : {
           "stringUnit" : {
@@ -167867,6 +168004,9 @@
           }
         }
       }
+    },
+    "Quantity Fat" : {
+
     },
     "Quantity of carbs in g" : {
       "localizations" : {
@@ -178950,6 +179090,12 @@
           }
         }
       }
+    },
+    "SelectedDate" : {
+
+    },
+    "SelectedValue" : {
+
     },
     "Selection" : {
       "localizations" : {
@@ -194720,6 +194866,7 @@
       }
     },
     "Successful Loop" : {
+      "extractionState" : "stale",
       "localizations" : {
         "bg" : {
           "stringUnit" : {
@@ -194824,6 +194971,9 @@
           }
         }
       }
+    },
+    "Successful Loops" : {
+
     },
     "Suggested at" : {
       "comment" : "Headline in suggested pop up (at: at what time)",
@@ -197179,6 +197329,12 @@
           }
         }
       }
+    },
+    "Tap a percentile or tap and hold a bar to reveal more details. Swipe to scroll through time." : {
+
+    },
+    "Tap and hold a bar in the chart to reveal more details. Swipe to scroll through time." : {
+
     },
     "Tap and hold a bar to reveal more details." : {
       "localizations" : {
@@ -202152,6 +202308,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "胰島素作用時間（DIA）現在鎖定為 Trio 的新預設值 10 小時。"
+          }
+        }
+      }
+    },
+    "The external bolus cannot be larger than 3 x the pump setting max bolus (%@)." : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le bolus externe ne peut pas être supérieur à 3 x le réglage maximum de l'bolus de la pompe (%@)."
           }
         }
       }
@@ -222310,6 +222476,7 @@
       }
     },
     "Trio Up-Time Chart" : {
+      "extractionState" : "stale",
       "localizations" : {
         "bg" : {
           "stringUnit" : {
@@ -223801,7 +223968,7 @@
       }
     },
     "U" : {
-      "comment" : "Insulin unit\nInsulin unit abbreviation\nThe short unit display string for international units of insulin",
+      "comment" : "Insulin unit\nInsulin unit abbreviation\nThe short unit display string for international units of insulin\nUnits for bolus amount",
       "localizations" : {
         "bg" : {
           "stringUnit" : {
@@ -224014,7 +224181,7 @@
       }
     },
     "U/hr" : {
-      "comment" : "Insulin unit per hour abbreviation",
+      "comment" : "Insulin unit per hour abbreviation\nUnits text for temporary basal rate",
       "localizations" : {
         "bg" : {
           "stringUnit" : {
@@ -230410,7 +230577,11 @@
         }
       }
     },
+    "Very Low (<%@" : {
+
+    },
     "Very Low (<%@)" : {
+      "extractionState" : "stale",
       "localizations" : {
         "bg" : {
           "stringUnit" : {
